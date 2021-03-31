@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <title>電腦版行事曆</title>
+</head>
+<body>
+    <header>
+        <h1>行事曆</h1>
+    </header>
+
+    <form action="">
+        <input type="text" style="width: 500px;">
+        <input type="number" min="2021" max="2050" placeholder="YYYY" required>
+        <input type="number" min="1" max="12" placeholder="MM" required>
+        <input type="number" min="1" max="31" placeholder="DD" required>
+        <button type="submit">新增</button>
+    </form>
+
+    <div class="sort">
+        <button>依預定完成時間排序</button>
+    </div>
+
+    <section></section>
+
+    <p>Creation By LONG, WEI JEN</p>
+    <script src="script.js"></script>
+</body>
+</html>
